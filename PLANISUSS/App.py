@@ -6,7 +6,7 @@ window = tk.Tk()
 window.title("Planisuss")  # Change the title to "Planisuss"
 
 # set up the background image
-background_image_path = r"G:\My Drive\Documenti\Python\Filippo_Bencivenni_512894\Filippo_Bencivenni_512894_PLANISUSS\Screenshot 2024-01-24 125154.png" # here put the path of the photo to use as background
+background_image_path = "Image\Background.png"
 background_image = tk.PhotoImage(file=background_image_path)
 background_label = tk.Label(window, image=background_image)
 background_label.place(relwidth=1, relheight=1)  # use relative width and height to cover the entire window
